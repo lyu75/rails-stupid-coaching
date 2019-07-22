@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <h2>Welcome to the Westland San Elimination Lagoon</h2>
+
+    <form action="/ask" method="get">
+      <input  style="margin: 30px 0px;" type="submit" value="Go to Westland">
+    </form>
+
     <%= yield %>
+    <p><%= Time.now%></p>
   </body>
 </html>
